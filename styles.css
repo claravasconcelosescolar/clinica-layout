@@ -1,0 +1,117 @@
+/* Reseta margens e espaçamentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffe4e1;
+    color: #fcc0da;
+    position: relative;
+  }
+  
+  /* Cabeçalho */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #df7da6;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    color: #7e1037;
+  }
+  
+  .logo img {
+    width: 160px;
+  }
+  
+  /* Flor superior esquerda */
+  .flower-top-left img {
+    position: absolute;
+    top: 140px;
+    left: 7px;
+    width: 195px;
+  }
+  
+  /* Conteúdo principal */
+  .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+  }
+  
+  .text-content {
+    max-width: 800px;
+  }
+  
+  .title {
+    font-size: 38px;
+    color: #c14e76;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-read-more {
+    text-decoration: none;
+    background-color: #c14e76;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .btn-read-more:hover {
+    background-color: #7e1037;
+  }
+  
+  .image-content img {
+    max-width: 300px;
+    border-radius: 60px;
+  }
+  
+  /* Rodapé */
+  .footer {
+    background-color: #df7da6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .footer a { 
+    color: #7e1037;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .flower-bottom-left  img{
+    position: absolute;
+    bottom: 0px;
+    left: 7px;
+    width: 195px;
+    height: auto;
+  }
